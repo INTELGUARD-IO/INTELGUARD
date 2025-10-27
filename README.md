@@ -1,6 +1,6 @@
 <p align="center">
 <a href="https://intelguard.io" target="_blank" rel="noopener">
-<img src="assets/logo-dark.svg" width="220" alt="IntelGuard logo"/>
+<img src="https://intelguard.io/logo.png" width="220" alt="IntelGuard logo"/>
 </a>
 </p>
 
@@ -14,7 +14,7 @@ Analyst‑validated threat intelligence for blocklists that actually block threa
 
 
 <p align="center">
-<a href="YOUR_WAITLIST_URL"><img alt="Join the waitlist" src="https://img.shields.io/badge/Join%20the%20Waitlist-black"/></a>
+<a href="https://intelguard.io/join"><img alt="Join the waitlist" src="https://img.shields.io/badge/Join%20the%20Waitlist-black"/></a>
 <a href="#free-mini-feeds"><img alt="Free mini feeds" src="https://img.shields.io/badge/Free%20Mini%20Feeds-%F0%9F%94%92%20Open-lightgrey"/></a>
 <a href="https://github.com/ORG/REPO/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/ORG/REPO?style=social"/></a>
 </p>
