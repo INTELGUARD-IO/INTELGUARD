@@ -15,7 +15,7 @@ Analyst‑validated threat intelligence for blocklists that actually block threa
 
 <p align="center">
 <a href="https://intelguard.io/join"><img alt="Join the waitlist" src="https://img.shields.io/badge/Join%20the%20Waitlist-black"/></a>
-<a href="#free-mini-feeds"><img alt="Free mini feeds" src="https://img.shields.io/badge/Free%20Mini%20Feeds-%F0%9F%94%92%20Open-lightgrey"/></a>
+<a href="#free-mini-feeds"><img alt="Free mini feeds" src="https://intelguard.io/true-threat-feeds"/></a>
 <a href="https://github.com/ORG/REPO/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/ORG/REPO?style=social"/></a>
 </p>
 
@@ -63,18 +63,17 @@ Security teams don’t need another giant list of noisy Indicators of Compromise
 Small, rotating samples to help you test your tooling.
 
 
-- **IPv4 (text):** `https://ORG.github.io/REPO/free/ipv4.txt`
-- **Domains (text):** `https://ORG.github.io/REPO/free/domains.txt`
-- **CSV (both):** `https://ORG.github.io/REPO/free/indicators.csv`
+- **IPv4 (text):** `https://feed.intelguard.io/feed/sample?type=ipv4&format=txt`
+- **Domains (text):** `https://feed.intelguard.io/feed/sample?type=domain&format=txt`
 
 
 > ⚠️ *Mini‑feeds are a demonstration subset with stricter confidence thresholds and rate‑limits. They are not a replacement for the full service.*
 
 
-### Quick usage
-```bash
-# Pull and apply IPv4 demo blocklist
-curl -sSfL https://ORG.github.io/REPO/free/ipv4.txt -o /tmp/intelguard_ipv4.txt
-while read ip; do
-[ -n "$ip" ] && iptables -A INPUT -s "$ip" -j DROP || true
-done </tmp/intelguard_ipv4.txt
+**Quick usage — IPv4 list**
+# Pull IPv4 demo blocklist (and save to file)
+curl -sSfL 'https://feed.intelguard.io/feed/sample?type=ipv4&format=txt'
+
+**Quick usage — Domain list**
+# Pull Domain demo blocklist (and save to file)
+curl -sSfL 'https://feed.intelguard.io/feed/sample?type=domain&format=txt'
