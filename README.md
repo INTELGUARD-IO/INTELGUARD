@@ -13,20 +13,20 @@
 <p align="center">
   <a href="https://intelguard.io/join">
     <img alt="Join the Waitlist" src="https://img.shields.io/badge/Join%20the%20Waitlist-000"/>
-  </a>&nbsp;
-  <a href="https://intelguard.io/features">
+  </a><!--
+  --><a href="https://intelguard.io/features">
     <img alt="Start Trial" src="https://img.shields.io/badge/Start%20Trial-1aa34a"/>
-  </a>&nbsp;
-  <a href="https://intelguard.io/integrations">
+  </a><!--
+  --><a href="https://intelguard.io/integrations">
     <img alt="Docs & Integrations" src="https://img.shields.io/badge/Docs%20%26%20Integrations-0b5fff"/>
-  </a>&nbsp;
-  <a href="https://www.linkedin.com/company/intelguard">
+  </a><!--
+  --><a href="https://www.linkedin.com/company/intelguard">
     <img alt="Follow on LinkedIn" src="https://img.shields.io/badge/Follow%20on%20LinkedIn-0A66C2?logo=linkedin&logoColor=white"/>
-  </a>&nbsp;
-  <a href="#free-mini-feeds">
+  </a><!--
+  --><a href="#free-mini-feeds">
     <img alt="Free Mini Feeds" src="https://img.shields.io/badge/Free%20Mini%20Feeds-Demo-lightgrey"/>
-  </a>&nbsp;
-  <a href="https://github.com/INTELGUARD-IO/INTELGUARD/stargazers">
+  </a><!--
+  --><a href="https://github.com/INTELGUARD-IO/INTELGUARD/stargazers">
     <img alt="GitHub stars" src="https://img.shields.io/github/stars/INTELGUARD-IO/INTELGUARD?style=social"/>
   </a>
 </p>
@@ -75,3 +75,6 @@ Small, rotating samples to help you test your tooling.
 curl -sSfL 'https://feed.intelguard.io/feed/sample?type=ipv4&format=txt' \
   -H 'Accept: text/plain' \
   -o /tmp/intelguard_ipv4.txt
+
+
+<h2>Get access</h2> <ul> <li><strong>Start Trial:</strong> <a href="https://intelguard.io/features">https://intelguard.io/features</a></li> <li><strong>Docs &amp; Integrations:</strong> <a href="https://intelguard.io/integrations">https://intelguard.io/integrations</a></li> <li><strong>Join the waitlist:</strong> <a href="https://intelguard.io/join">https://intelguard.io/join</a></li> <li><strong>Follow us on LinkedIn:</strong> <a href="https://www.linkedin.com/company/intelguard">https://www.linkedin.com/company/intelguard</a></li> </ul> <p>If you’d like to evaluate a larger sample for a POC, reach out to us.</p> <h2>Responsible use</h2> <p> IntelGuard feeds are provided <em>as-is</em> for defensive and research purposes. You are responsible for how you deploy blocklists in your environment. Do not use the data to target, harass, or disrupt infrastructure beyond legitimate defensive controls. </p> <h2>Brand &amp; attribution</h2> <p><em>IntelGuard</em> and <em>True Threat Feed™</em> are trademarks of their respective owners.</p> <p>© IntelGuard. All rights reserved.</p>
