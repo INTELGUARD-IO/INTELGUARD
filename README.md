@@ -13,20 +13,20 @@
 <p align="center">
   <a href="https://intelguard.io/join">
     <img alt="Join the Waitlist" src="https://img.shields.io/badge/Join%20the%20Waitlist-000"/>
-  </a><!--
-  --><a href="https://intelguard.io/features">
+  </a>&nbsp;
+  <a href="https://intelguard.io/features">
     <img alt="Start Trial" src="https://img.shields.io/badge/Start%20Trial-1aa34a"/>
-  </a><!--
-  --><a href="https://intelguard.io/integrations">
+  </a>&nbsp;
+  <a href="https://intelguard.io/integrations">
     <img alt="Docs & Integrations" src="https://img.shields.io/badge/Docs%20%26%20Integrations-0b5fff"/>
-  </a><!--
-  --><a href="https://www.linkedin.com/company/intelguard">
+  </a>&nbsp;
+  <a href="https://www.linkedin.com/company/intelguard">
     <img alt="Follow on LinkedIn" src="https://img.shields.io/badge/Follow%20on%20LinkedIn-0A66C2?logo=linkedin&logoColor=white"/>
-  </a><!--
-  --><a href="#free-mini-feeds">
+  </a>&nbsp;
+  <a href="#free-mini-feeds">
     <img alt="Free Mini Feeds" src="https://img.shields.io/badge/Free%20Mini%20Feeds-Demo-lightgrey"/>
-  </a><!--
-  --><a href="https://github.com/INTELGUARD-IO/INTELGUARD/stargazers">
+  </a>&nbsp;
+  <a href="https://github.com/INTELGUARD-IO/INTELGUARD/stargazers">
     <img alt="GitHub stars" src="https://img.shields.io/github/stars/INTELGUARD-IO/INTELGUARD?style=social"/>
   </a>
 </p>
@@ -75,25 +75,3 @@ Small, rotating samples to help you test your tooling.
 curl -sSfL 'https://feed.intelguard.io/feed/sample?type=ipv4&format=txt' \
   -H 'Accept: text/plain' \
   -o /tmp/intelguard_ipv4.txt
-
-Get access
-
-Start Trial: https://intelguard.io/features
-
-Docs & Integrations: https://intelguard.io/integrations
-
-Join the waitlist: https://intelguard.io/join
-
-Follow us on LinkedIn: https://www.linkedin.com/company/intelguard
-
-If you’d like to evaluate a larger sample for a POC, reach out to us.
-
-Responsible use
-
-IntelGuard feeds are provided as-is for defensive and research purposes. You are responsible for how you deploy blocklists in your environment. Do not use the data to target, harass, or disrupt infrastructure beyond legitimate defensive controls.
-
-Brand & attribution
-
-IntelGuard and True Threat Feed™ are trademarks of their respective owners.
-
-© IntelGuard. All rights reserved.
